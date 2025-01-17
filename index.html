@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¡Feliz Cumpleaños!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>¡Feliz Cumpleaños!</h1>
+    <h2>My Mother</h2>
+    
+    <div class="birthday-cake">
+      <svg width="200" height="200" viewBox="0 0 200 200">
+        <rect x="40" y="100" width="120" height="80" fill="#ffd5d5" rx="5"/>
+        <rect x="30" y="90" width="140" height="20" fill="#ff9ecd"/>
+        <circle cx="100" cy="90" r="5" fill="#ff4d4d"/>
+        <path d="M90 70 L110 70 L100 40 Z" fill="#ff4d4d"/>
+      </svg>
+    </div>
+
+    <button id="revealButton" class="glow-button">¡Celebrar!</button>
+
+    <div id="memoriesContainer" class="memories hidden">
+      <div class="memory-card">
+        <h3>Momento 1</h3>
+        <img src="/Photos-001/IMG20240328130643.jpg" alt="Foto1">
+        <p>Un día lleno de sorpresas y alegría.</p>
+      </div>
+
+      <div class="memory-card">
+        <h3>Momento 2</h3>
+        <img src="/Photos-001/IMG-20250107-WA0012.jpg" alt="Foto2">
+        <p>Una celebración inolvidable.</p>
+      </div>
+
+      <div class="memory-card">
+        <h3>Momento 3</h3>
+        <img src="/Photos-001/IMG-20231231-WA0024.jpg" alt="Foto3">
+        <p>Pequeños detalles que marcan grandes días.</p>
+      </div>
+
+      <div class="memory-card">
+        <h3>Momento 4</h3>
+        <img src="/Photos-001/IMG-20230606-WA0002.jpg" alt="Foto4">
+        <p>Instantes llenos de felicidad.</p>
+      </div>
+
+      <div class="memory-card" id="foto5">
+        <h3>Momento 5</h3>
+        <img src="/Photos-001/IMG20240719202625.jpg" alt="Foto5">
+        <p>Gracias por tu apoyo</p>
+      </div>
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
